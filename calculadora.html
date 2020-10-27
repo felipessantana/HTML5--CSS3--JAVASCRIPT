@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
     <script>
         function calculo() {
@@ -27,18 +28,19 @@
         }
        
 
-
-
-
     </script>
 </head>
 <body>
+    <div id="cal">
+        <center>
         N1: <input type="text" id="n1" /> <br>
         N2: <input type="text" id="n2" /> <br>
         OP: <input type="text" id="op" /> <br>
-        <button onclick="calculo()">Resultado</button> <br>
-     
-        Resultado: <input type="text" id="total" /> <br>
-        
+        <button onclick="calculo()">Resultado</button>
+        <br>
+        Resultado: <input type="text" id="total" /> 
+        <br>
+    </center>
+    </div>
 </body>
 </html>
